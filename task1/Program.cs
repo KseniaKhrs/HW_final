@@ -41,7 +41,7 @@ Console.WriteLine();
 
 string[] resultArray = NMarkArray(3, array);
 Console.WriteLine("Получен следующий массив:");
-for (int i = 0; i < size; i++)
+for (int i = 0; i < resultArray.Length; i++)
 {
     Console.WriteLine(resultArray[i]);
 }
